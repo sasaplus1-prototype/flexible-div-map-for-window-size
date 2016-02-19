@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <title>flexible div map for window size</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .frame {
+        border-bottom: 1px solid black;
+        height: 400px;
+      }
+
+      .box {
+        position: absolute;
+      }
+      .box.even {
+        background-color: lightgray;
+      }
+      .box.odd {
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="js-frame" class="frame"></div>
+    <script src="jquery-2.2.0.min.js"></script>
+    <script src="lodash.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
